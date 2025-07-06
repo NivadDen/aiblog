@@ -5,7 +5,7 @@ from dotenv import dotenv_values
 config = dotenv_values('test.env')
 openai.api_key = config['API_KEY']
 
-# Function to generate a blog paragraph
+# Function to generate a blog paragraph using new SDK syntax
 def generate_blog(p_topic):
     response = openai.Completion.create(
         model='gpt-3.5-turbo-instruct',
