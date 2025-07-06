@@ -1,10 +1,10 @@
-AI Blog Generator
+# AI Blog Generator
 A simple Python script that generates blog paragraphs on any topic using OpenAI's GPT-3.5-turbo-instruct model.
 
-Overview
+# Overview
 This project uses the OpenAI API to generate blog paragraphs based on user input topics. It securely loads the API key from a .env file and provides an interactive command-line interface to create dynamic content.
 
-Features
+# Features
 Generate blog paragraphs on any user-defined topic.
 
 Interactive command-line prompts for continuous writing.
